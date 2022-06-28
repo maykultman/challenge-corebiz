@@ -1,0 +1,76 @@
+form.form-search {
+  position: relative;
+}
+
+form.form-search input.form-control {
+  border-bottom: 1px solid #444 !important;
+}
+
+form.form-search svg {
+  position: absolute;
+  top: 0;
+  right: 2%;
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  form.form-search {
+    margin-top: 10px;
+  }
+}
+
+.shoppingCart {
+  position: relative;
+}
+
+.shoppingCart svg {
+  font-size: 20px;
+}
+
+.shoppingCart .circle {
+  background-color: #f55;
+  border-radius: 100%;
+  color: #fff;
+  height: 22px;
+  position: absolute;
+  top: -10px;
+  right: -20px;
+  width: 22px;
+  text-align: center;
+  font-size: 13px;
+  padding-top: 2px;
+}
+
+@media (max-width: 768px) {
+  .w-logo {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    text-align: center;
+  }
+  .w-logo img {
+    margin: 0 auto;
+    display: block;
+  }
+  .w-logo span {
+    font-size: 24px;
+  }
+  .w-search {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .w-cart {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    padding-right: 30px !important;
+  }
+  .w-cart svg {
+    font-size: 24px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

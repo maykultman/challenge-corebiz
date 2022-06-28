@@ -1,0 +1,58 @@
+form.form-search{
+    position: relative;
+    input.form-control{
+        border-bottom: 1px solid #444!important;
+    }
+    svg{
+        position: absolute;
+        top: 0;
+        right: 2%;
+        font-size:30px;
+    }
+    @media(max-width:768px){
+        margin-top: 10px;
+    }
+}
+.shoppingCart{
+    position: relative;
+    svg{
+        font-size: 20px;
+    }
+    .circle{
+        background-color: #f55;
+        border-radius: 100%;
+        color: #fff;
+        height: 22px;
+        position: absolute;
+        top: -10px;
+        right: -20px;
+        width: 22px;
+        text-align: center;
+        font-size: 13px;
+        padding-top: 2px;
+    }
+}
+@media(max-width:768px){
+    .w-logo{
+        order: 1;
+        text-align: center;
+        img{
+            margin: 0 auto;
+            display: block;
+        }
+        span{
+            font-size: 24px;
+        }
+    }
+    .w-search{
+        order: 3;
+    }
+    .w-cart{
+        order: 2;
+        justify-content: end;
+        padding-right: 30px!important;
+        svg{
+            font-size:24px;
+        }
+    }
+}

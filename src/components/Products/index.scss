@@ -1,0 +1,122 @@
+.title-product{
+    color:#000;
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        bottom:-16px;
+        left:0;
+        width: 100px;
+        height: 3px;
+        background-color:#000;
+    }
+}
+.loop {
+    .swiper-pagination{
+        display: none;
+        bottom:0px;
+    }
+    .swiper{
+        padding-bottom:30px;
+    }
+}
+
+.swiper-pagination{
+    .swiper-pagination-bullet{
+        background-color:#f55;
+        width: 11px;
+        height: 11px;
+        &.swiper-pagination-bullet-active{
+            background-color:#f55;
+        }
+    } 
+    @media(max-width: 768px){
+        display: block;
+    }
+}
+.content{
+    color: #aaa;
+    position: relative;
+    button{
+        transition: width 0.4s;
+        margin: 0 auto;
+        width: 150px;
+    }
+    strong{
+        color: #000;
+    }
+    img{
+        width: 100%;
+        object-fit: contain;
+    }
+    .info{
+        transition:0.4s;
+    }
+    &:hover{
+        .info{
+            background-color: #eaebed;
+        }
+        button{
+            width: 180px;
+        }
+    }
+
+    .star{
+        .fill{
+                path:nth-child(1){
+                    fill: red;
+                    stroke: red;
+                }
+                path:nth-child(2){
+                    fill: red;
+                }
+        }  
+        svg path:nth-child(1){
+            fill:transparent;
+        }
+        svg path:nth-child(2){
+            fill:red;
+        }
+    }
+    .triangle{
+        color: #fff;
+        background-color: #f55;
+        clip-path: polygon(100% 0, 0 0, 100% 100%);
+        height: 80px;
+        position: absolute;
+        right: 0;
+        width: 80px;
+        &::before{
+            content:"OFF";
+            position: absolute;
+            right: 10%;
+            top: 10%;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    }
+}
+@media (prefers-reduced-motion: no-preference) {
+    .loader {
+        display:block;
+        position: relative;
+        svg{
+            width:50px;
+            height:50px;
+            margin:0 auto;
+            display:block;
+            animation: App-logo-spin infinite 1.4s linear;
+        }
+    }
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+      transform-origin:center
+    }
+    to {
+      transform: rotate(360deg);
+      transform-origin:center
+    }
+  }

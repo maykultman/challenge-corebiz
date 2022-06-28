@@ -1,0 +1,14 @@
+footer .btn {
+  display: inline-block;
+  width: 100%;
+  font-size: 14px;
+}
+
+footer {
+  font-size: 12px;
+}
+
+footer .cta span {
+  width: 100%;
+}
+/*# sourceMappingURL=index.css.map */

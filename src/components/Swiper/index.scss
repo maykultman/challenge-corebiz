@@ -1,0 +1,14 @@
+.header .swiper-pagination .swiper-pagination-bullet{
+    background-color:#fff;
+}
+.container-slide .swiper-slide{
+    height:400px;
+    img{
+        width:100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    @media(max-width:768px){
+        height:230px;
+    }
+}

@@ -1,0 +1,21 @@
+.header .swiper-pagination .swiper-pagination-bullet {
+  background-color: #fff;
+}
+
+.container-slide .swiper-slide {
+  height: 400px;
+}
+
+.container-slide .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .container-slide .swiper-slide {
+    height: 230px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
