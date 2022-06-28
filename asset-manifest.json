@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/challenge-corebiz/static/css/main.42fecf46.css",
+    "main.js": "/challenge-corebiz/static/js/main.59056f3d.js",
+    "static/js/787.dee3010a.chunk.js": "/challenge-corebiz/static/js/787.dee3010a.chunk.js",
+    "static/media/vetex.svg": "/challenge-corebiz/static/media/vetex.95baac2bfcf13020223e9a3c4931df65.svg",
+    "static/media/logo.svg": "/challenge-corebiz/static/media/logo.55730181809b5cd487a18db818a6b95f.svg",
+    "index.html": "/challenge-corebiz/index.html",
+    "main.42fecf46.css.map": "/challenge-corebiz/static/css/main.42fecf46.css.map",
+    "main.59056f3d.js.map": "/challenge-corebiz/static/js/main.59056f3d.js.map",
+    "787.dee3010a.chunk.js.map": "/challenge-corebiz/static/js/787.dee3010a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42fecf46.css",
+    "static/js/main.59056f3d.js"
+  ]
+}
